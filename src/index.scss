@@ -1,4 +1,9 @@
 :root {
+
+  //VARIABLES
+  --background-color:#1e1f26;
+  background-color: var(--background-color);
+  
   /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -37,7 +42,7 @@ body {
   align-items: center;
   height: 100vh;
   position: relative;
-  background-color: #1e1f26;
+  background-color: var(--background-color);
   text-align: center;
   padding: 0 2em;
 }
@@ -74,7 +79,7 @@ h3.span {
   color: #faebd7;
   z-index: 4;
   @media (min-width:480px) {
-    font-size: xx-large;
+    font-size: x-large;
   }
 }
 span:hover {
