@@ -14,6 +14,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%; */
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +23,10 @@
 
 body {
   font-family: "ROBOTO", sans-serif;
+}
+.nav{
+  overflow: hidden !important;
+  box-sizing: border-box;
 }
 
 .nav,
@@ -127,15 +132,7 @@ a {
   background: #03dac6;
   transition: left 0.3s ease;
 }
-.background {
-  position: absolute;
-  height: 90vh;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: auto;
-}
+
 @media (min-width: 800px) {
   .nav h1,
   .slider h1 {
@@ -255,3 +252,4 @@ a {
 .loader span:nth-child(22) {
   -webkit-animation-delay: 2.1s;
 }
+

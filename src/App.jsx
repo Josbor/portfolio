@@ -15,10 +15,10 @@ const options={
    
     particles: {
         color: {
-            value: "#ff0266",
+            value: "#36c2d4",
         },
         links: {
-            color: "#ff0266",
+            color:"#36c2d4",
             distance: 200,
             enable: true,
             opacity: 0.5,
@@ -72,12 +72,14 @@ function App() {
 }, []);
   return (
     <div  className="App">
-<section style={{overflow:'hidden'}}  className="nav">
+      
+<section style={{overflow:'hidden !important'}}  className="nav">
 <Particles
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
-            options={options}
+            options={{...options,  autoPlay:true}}
+            
         />
   <h1>FRONTEND DEVELOPER</h1>
         <h3 className="span loader">
@@ -94,7 +96,9 @@ function App() {
           <span className="m">G</span>
           <span className="m">O</span>
           </h3>
+         
         <div className="nav-container"><a className="nav-tab" href="#tab-svelte">SVELTE</a><a className="nav-tab" href="#tab-esbuild">ESBUILD</a><a className="nav-tab" href="#tab-next">NEXT.JS</a><a className="nav-tab" href="#tab-typescript">TYPESCRIPT</a><a className="nav-tab" href="#tab-vite">VITE</a><span className="nav-tab-slider"></span></div>
+       
 </section>
 <main className="main">
   <section className="slider" id="tab-svelte">
@@ -118,7 +122,7 @@ function App() {
     <h2>a frontend build tool</h2>
   </section>
 </main>
-<canvas className="background"></canvas>
+
 
     </div>
 
