@@ -97,7 +97,12 @@ function App() {
           <span className="m">O</span>
           </h3>
          
-        <div className="nav-container"><a className="nav-tab" href="#tab-svelte">SVELTE</a><a className="nav-tab" href="#tab-esbuild">ESBUILD</a><a className="nav-tab" href="#tab-next">NEXT.JS</a><a className="nav-tab" href="#tab-typescript">TYPESCRIPT</a><a className="nav-tab" href="#tab-vite">VITE</a><span className="nav-tab-slider"></span></div>
+        <div className="nav-container">
+          <a className="nav-tab" href="#tab-svelte">ABOUT ME</a>
+          <a className="nav-tab" href="#tab-esbuild">PORTFOLIO</a>
+          <a className="nav-tab" href="#tab-next">CONTACT</a>
+          <span className="nav-tab-slider"></span>
+        </div>
        
 </section>
 <main className="main">
@@ -113,14 +118,7 @@ function App() {
     <h1>NEXT.JS</h1>
     <h2>framework for Production</h2>
   </section>
-  <section className="slider" id="tab-typescript">
-    <h1>TYPESCRIPT</h1>
-    <h2>giving you better tooling at any scale</h2>
-  </section>
-  <section className="slider" id="tab-vite">
-    <h1>VITE</h1>
-    <h2>a frontend build tool</h2>
-  </section>
+
 </main>
 
 
