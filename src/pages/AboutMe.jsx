@@ -1,14 +1,15 @@
 import React from 'react'
-
+import image from '../assets/profilePic.jpg'
 const AboutMe = () => {
   return (
     <div className='about-container'>
 
       <div className='about-image-container'>
         <div className='about-image'>
-          
+         
+          <img src={image}  />
+        
         </div>
-    
       </div>
       <div className='about-content'>
         <h2>SOBRE MI</h2>
