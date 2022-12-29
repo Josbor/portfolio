@@ -13,7 +13,8 @@ const AboutMe = () => {
       </div>
       <div className='about-content'>
         <h2>SOBRE MI</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, saepe necessitatibus inventore vel maiores illo sequi suscipit? Quas esse voluptate itaque sunt, impedit accusantium nihil earum soluta blanditiis quaerat voluptatibus?</p>
+        <p>Soy Jose Alberto Borrego ,Desarrollador FrontEnd con 2 años de experiencia en Frontend con React Y angular.Dominio en backend con Php , Nodejs y Sql server para base de datos. Enfocado al desarrollo visual y dinámico de soluciones.Poseo habilidades de ilustrador y conocimientos de diseño, añadiendo estas nociones a mi código.
+        </p>
 
       </div>
     </div>
