@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import cors from 'cors'
+
 const slideStyles = {
 
     borderRadius: "10px",
@@ -59,7 +59,7 @@ const Gallery = ({ slides=[
     'https://picsum.photos/300/300/?random&6',
     'https://picsum.photos/300/300/?random&6'
   ] }) => {
-    cors();
+   
     const [currentIndex, setCurrentIndex] = useState(0);
     const     goToPrevious = () => {
       const isFirstSlide = currentIndex === 0;

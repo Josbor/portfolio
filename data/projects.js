@@ -5,7 +5,7 @@ export const projects=[
         description:'este es un proyecto para consultar los datos de las diferentes cripto currencys',
         projectUrl:'https://github.com/Josbor/cripto-react',
         deploy:'https://cripto-consulta.netlify.app/',
-        image:'src/assets/img/project-1.png'
+        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-1.png'
     },
     {   id:2,
         name:'Consultas veterinario',
