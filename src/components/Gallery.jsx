@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import cors from 'cors'
 const slideStyles = {
 
     borderRadius: "10px",
@@ -58,6 +59,7 @@ const Gallery = ({ slides=[
     'https://picsum.photos/300/300/?random&6',
     'https://picsum.photos/300/300/?random&6'
   ] }) => {
+    cors();
     const [currentIndex, setCurrentIndex] = useState(0);
     const     goToPrevious = () => {
       const isFirstSlide = currentIndex === 0;
@@ -99,7 +101,7 @@ const Gallery = ({ slides=[
         ❰
       </div>
       <div style={{ display: "flex", justifyContent: "center" }} >
-        <img src={slides[currentIndex]} style={slideImage} alt="" />
+        <img src={slides[currentIndex].image} style={slideImage} alt="" />
       </div>
 
       <div onClick={goToNext} style={rightArrowStyles} >
@@ -113,7 +115,7 @@ const Gallery = ({ slides=[
           key={slideIndex}
           onClick={() => goToSlide(slideIndex)}
         >
-          <img src={slide} alt="" style={imgStyle} />
+          <img src={slide.image} alt="" style={imgStyle} />
         </div>
       ))}
     </div>
