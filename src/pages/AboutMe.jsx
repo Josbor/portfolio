@@ -6,9 +6,7 @@ const AboutMe = () => {
 
       <div className='about-image-container'>
         <div className='about-image'>
-         
           <img src={image}  />
-        
         </div>
       </div>
       <div className='about-content'>
