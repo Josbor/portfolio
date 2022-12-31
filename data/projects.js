@@ -12,14 +12,14 @@ export const projects=[
         description:'proyecto donde se agendan citas a los pacientes en una veterinaria',
         projectUrl:'https://github.com/Josbor/citas_react',
         deploy:'https://citasveterinariofinal.netlify.app/',
-        image:'src/assets/img/project-2.png'
+        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-2.png'
     },
     {   id:3,
         name:'Tienda de Muebles',
         description:'es un pequeño proyecto de presentacion de una tienda de muebles',
         projectUrl:'https://github.com/Josbor/tienda-muebles',
         deploy:'https://muebles-shop.netlify.app',
-        image:'src/assets/img/project-3.png'
+        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-3.png'
         
     }
 ]
