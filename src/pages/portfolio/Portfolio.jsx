@@ -1,6 +1,6 @@
 import React from 'react'
 import './Portfolio.scss'
-import Gallery from '../../components/Gallery';
+import Gallery from './gallery/Gallery';
 import { projects } from '../../../data/projects';
 
 const Portfolio = () => {
@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <>
 
-    <Gallery slides={projects} />
+    {/* <Gallery slides={projects} /> */}
     </>
   );
 };

@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import NavigationBar from '../components/NavigationBar'
 import AboutMe from './AboutMe'
 import Portfolio from './portfolio/Portfolio'
-import Skills from './Skills'
+import Skills from './skills/Skills'
 
 const Main = () => {
     return (

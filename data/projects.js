@@ -25,16 +25,75 @@ export const projects=[
 ]
 
 
-export const frontTech=[
-    {
+export const techSkills={
+    frontend:[
+        
+        {
+            id:1,
+            name:'html',
+            image:'https://www.svgrepo.com/show/373669/html.svg'
+        }
+        ,
+        {
+            id:2,
+            name:'css',
+            image:'https://www.svgrepo.com/show/373535/css.svg'
+        },
+        {
+            id:3,
+            name:'javascript',
+            image:'https://www.svgrepo.com/show/353925/javascript.svg'
+        },
+        {
+            id:4,
+            name:'react',
+            image:'https://www.svgrepo.com/show/354259/react.svg'
+        },
+        {
+            id:5,
+            name:'redux',
+            image:'https://www.svgrepo.com/show/354274/redux.svg'
+        },
+        {
+            id:6,
+            name:'angular',
+            image:'https://www.svgrepo.com/show/353396/angular-icon.svg'
+        },
+        {
+            id:7,
+            name:'rxjs',
+            image:'https://www.svgrepo.com/show/354261/reactivex.svg'
+        },
+    ],
+    
+    backend:[
+        {
         id:1,
-        name:'react',
-        image:'https://www.svgrepo.com/show/354259/react.svg'
-    }
-    ,
-    {
+        name:'node',
+        image:'https://www.svgrepo.com/show/355140/node.svg'
+        },
+        {
         id:2,
-        name:'Angular',
-        image:'https://www.svgrepo.com/show/353396/angular-icon.svg'
-    }
-]
+        name:'php',
+        image:'https://www.svgrepo.com/show/303208/php-1-logo.svg'
+        },
+        {
+        id:3,
+        name:'sql',
+        image:'https://www.svgrepo.com/show/331760/sql-database-generic.svg'
+        },
+        {
+        id:4,
+        name:'mysql',
+        image:'https://www.svgrepo.com/show/303251/mysql-logo.svgg'
+        },
+        {
+        id:5,
+        name:'sql server',
+        image:'https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg'
+        },
+
+    ],
+    aditionals:[]
+}
+    
