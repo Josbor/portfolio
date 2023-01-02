@@ -64,6 +64,17 @@ export const techSkills={
             name:'rxjs',
             image:'https://www.svgrepo.com/show/354261/reactivex.svg'
         },
+        {
+            id:8,
+            name:'Sass',
+            image:'https://www.svgrepo.com/show/374061/sass.svg'
+        },
+        {
+            id:9,
+            name:'Material ui',
+            image:'https://www.svgrepo.com/show/354048/material-ui.svg'
+        },
+
     ],
     
     backend:[
@@ -94,7 +105,33 @@ export const techSkills={
         },
 
     ],
-    aditionals:[]
+    aditionals:[
+        {
+            id:1,
+            name:'Git',
+            image:'https://www.svgrepo.com/show/373623/git.svg'
+        },
+        {
+            id:2,
+            name:'Figma',
+            image:'https://www.svgrepo.com/show/448222/figma.svg'
+        },
+        {
+            id:3,
+            name:'Slack',
+            image:'https://www.svgrepo.com/show/448248/slack.svg'
+        },
+        {
+            id:4,
+            name:'Illustrator',
+            image:'https://www.svgrepo.com/show/303184/adobe-illustrator-cc-logo.svg'
+        },
+        {
+            id:5,
+            name:'Photoshop',
+            image:'https://www.svgrepo.com/show/373968/photoshop.svg'
+        },
+    ]
 }
 
 
