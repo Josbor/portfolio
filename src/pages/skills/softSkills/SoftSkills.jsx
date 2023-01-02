@@ -1,6 +1,6 @@
 import React from 'react'
 import { softSkills } from '../../../../data/projects'
-import Skill from '../skill/skill'
+import Skill from '../skill/Skill'
 import './SoftSkills.scss'
 
 const SoftSkills = () => {
