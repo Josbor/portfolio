@@ -1,11 +1,10 @@
-import { Box, Paper, Tab, Tabs } from '@mui/material';
+import { Box, Tab } from '@mui/material';
 import React, { useState } from 'react'
 import { TabContext, TabList, TabPanel } from '@mui/lab';
 import './Skills.scss'
-import Skill from './skill/skill'
 import SoftSkills from './softSkills/SoftSkills';
 import TechSkills from './techSkills/TechSkills';
-import { display, flexbox } from '@mui/system';
+
 
 const Skills = () => {
     const [value, setValue] = useState('1');
