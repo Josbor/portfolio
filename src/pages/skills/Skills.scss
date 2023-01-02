@@ -1,0 +1,28 @@
+.container-skills{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    h2{
+        font-family: "Josefin Sans", sans-serif;
+            padding-bottom: 0.5rem;
+            letter-spacing: 0.4rem;
+            color:#03DAC6;
+            font-size: x-large;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            &::after{
+                content: '';
+                width: 10%;
+                height: 2px;
+                background-color: #a3ffe2;
+            }
+            @media (min-width:480px) {
+
+                font-size: xx-large;
+           }
+    }
+   
+}

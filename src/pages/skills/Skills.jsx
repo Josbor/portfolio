@@ -15,12 +15,12 @@ const Skills = () => {
     };
 
     return (
-        <>
+        <div className='container-skills'>
             <h2>HABILIDADES </h2>
             <Box sx={{ width: '100%', typography: 'body1', color: '#ffff' }}>
                 <TabContext value={value}>
                     <TabList centered onChange={handleChange} aria-label="lab API tabs example" variant='fullWidth'>
-                        <Tab sx={{ color: '#fff'}} label="Tecnicas" value="1" />
+                        <Tab sx={{ color: '#fff' }} label="Tecnicas" value="1" />
                         <Tab sx={{ color: '#fff' }} label="Blandas" value="2" />
 
                     </TabList>
@@ -37,7 +37,7 @@ const Skills = () => {
             </Box>
 
 
-        </>
+        </div>
     )
 }
 

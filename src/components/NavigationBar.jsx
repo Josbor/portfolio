@@ -6,7 +6,7 @@ const NavigationBar = () => {
     <a className="nav-tab" href="#tab-sobre-mi">SOBRE MI</a>
     <a className="nav-tab" href="#tab-portafolio">PORTAFOLIO</a>
     <a className="nav-tab" href="#tab-habilidades">HABILIDADES</a>
-    <a className="nav-tab" href="#tab-contacto">CONTACTO</a>
+   
     <span className="nav-tab-slider"></span>
 </div>
   )

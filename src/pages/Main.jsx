@@ -23,10 +23,7 @@ const Main = () => {
                 <section className="slider" id="tab-habilidades">
                     <Skills/>
                 </section>
-                <section className="slider" id="tab-contacto">
-                    <h1>CONTACTO</h1>
-                    <h2>redes y formulario de contacto</h2>
-                </section>
+                
 
 
             </main>

@@ -85,7 +85,7 @@ export const techSkills={
         {
         id:4,
         name:'mysql',
-        image:'https://www.svgrepo.com/show/303251/mysql-logo.svgg'
+        image:'https://www.svgrepo.com/show/303251/mysql-logo.svg'
         },
         {
         id:5,
