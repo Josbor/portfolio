@@ -1,0 +1,22 @@
+.soft-container{
+        
+    margin-top: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10px;
+    @media (min-width:480px) {
+        grid-template-columns: 1fr 1fr 1fr ;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+     .tech-image{
+        img{
+            width: 50px;
+            @media (min-width:480px) {
+                width: 8vw;
+                
+            }
+        }
+     }
+}

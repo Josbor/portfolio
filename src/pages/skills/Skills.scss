@@ -1,28 +1,46 @@
 .container-skills{
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: 90%;
+   
     h2{
         font-family: "Josefin Sans", sans-serif;
-            padding-bottom: 0.5rem;
-            letter-spacing: 0.4rem;
-            color:#03DAC6;
-            font-size: x-large;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            &::after{
-                content: '';
-                width: 10%;
-                height: 2px;
-                background-color: #a3ffe2;
-            }
+        padding-bottom: 0.5rem;
+        letter-spacing: 0.4rem;
+        color:#03DAC6 !important;
+        font-size: x-large !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 5px;
+        &::after{
+            content: '';
+            width: 40%;
+            height: 2px;
+            background-color: #a3ffe2;
             @media (min-width:480px) {
+                width: 10%;
+                
+            }
+        }
+        @media (min-width:480px) {
 
-                font-size: xx-large;
-           }
-    }
+            font-size: xx-large !important;
+            margin-bottom: 20px;
+       }
+}
    
+    @media (min-width:480px) {
+        padding: 0 10vw;
+    }
+  
+   
+}
+
+.MuiTabs-indicator{
+    background-color: #03DAC6;
 }

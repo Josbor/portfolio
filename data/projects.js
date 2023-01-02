@@ -96,4 +96,43 @@ export const techSkills={
     ],
     aditionals:[]
 }
+
+
+export const softSkills=[
+        
+        {
+            id:1,
+            name:'Comunicacion',
+            image:'https://www.svgrepo.com/show/256038/communication-chat.svg'
+        }
+        ,
+        {
+            id:2,
+            name:'Trabajo en equipo',
+            image:'https://www.svgrepo.com/show/295388/teamwork.svg'
+        },
+        {
+            id:3,
+            name:'Creatividad',
+            image:'https://www.svgrepo.com/show/418504/bulb-idea-knowledge.svg'
+        },
+        {
+            id:4,
+            name:'Energia',
+            image:'https://www.svgrepo.com/show/421771/energy-flash-lighning.svg'
+        },
+        {
+            id:5,
+            name:'Autodidacta',
+            image:'https://www.svgrepo.com/show/262022/check.svg'
+        },
+        {
+            id:6,
+            name:'Adaptabilidad',
+            image:'https://www.svgrepo.com/show/224292/idea-brain.svg'
+        },
+      
+     
+    ]
+
     
