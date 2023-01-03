@@ -112,8 +112,8 @@
             &::after {
                 content: '';
                 position: absolute;
-                width: calc(var(--img-size) + 20px) ;
-                height: calc(var(--img-height) + 20px);
+                width: calc(var(--img-size) + 10px) ;
+                height: calc(var(--img-height) + 10px);
 
                 filter: blur(30px);
                 background-image: linear-gradient(to right, #1d58a1 43%, #0003c2);
