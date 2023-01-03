@@ -113,7 +113,11 @@ a {
   color: #03dac6;
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
-  font-size: 2vw;
+  font-size: 2vw !important;
+  @media (max-width:480px) {
+    font-size: 3vw !important;
+}
+
 }
 
 .nav-tab:hover {

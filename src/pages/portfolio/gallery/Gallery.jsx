@@ -1,57 +1,66 @@
+import { Button } from '@mui/material';
 import React, { useState } from 'react'
 import './Gallery.scss'
 
-  
-
-  
 
 
 
-  
-  
-const Gallery = ({ slides=[
+
+
+
+
+
+const Gallery = ({ slides = [
     'https://picsum.photos/300/300/?random&8',
     'https://picsum.photos/300/300/?random&6',
     'https://picsum.photos/300/300/?random&6'
-  ] }) => {
-   
+] }) => {
+
     const [currentIndex, setCurrentIndex] = useState(0);
-    const     goToPrevious = () => {
-      const isFirstSlide = currentIndex === 0;
-      const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-      setCurrentIndex(newIndex);
+    const goToPrevious = () => {
+        const isFirstSlide = currentIndex === 0;
+        const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+        setCurrentIndex(newIndex);
     };
     const goToNext = () => {
-      const isLastSlide = currentIndex === slides.length - 1;
-      const newIndex = isLastSlide ? 0 : currentIndex + 1;
-      setCurrentIndex(newIndex);
+        const isLastSlide = currentIndex === slides.length - 1;
+        const newIndex = isLastSlide ? 0 : currentIndex + 1;
+        setCurrentIndex(newIndex);
     };
     const goToSlide = (slideIndex) => {
-      setCurrentIndex(slideIndex);
+        setCurrentIndex(slideIndex);
     };
-  
-  
- 
-  return (
-      <div className="container-gallery"  >
-          <div className='container-slide'>
-              <div className='left-arrow' onClick={goToPrevious} >
-                  ❰
-              </div>
-              <div className='container-image'>
-                 
-                  <img src={slides[currentIndex].image} alt="" >
-                    
-                  </img>
-                  <div className='glow'></div>
 
-              </div>
 
-              <div className='right-arrow' onClick={goToNext}  >
-                  ❱
-              </div>
-          </div>
-          {/* <div className='container-footer' >
+
+    return (
+        <div className="container-gallery"  >
+           <div className='header-slide'>
+            <h3>{slides[currentIndex].name}</h3>
+           </div>
+            <div className='container-slide'>
+                <div className='left-arrow' onClick={goToPrevious} >
+                    ❰
+                </div>
+                <div className='container-image'>
+
+                    <img src={slides[currentIndex].image} alt="" >
+
+                    </img>
+                    <div className='glow'></div>
+
+                </div>
+
+                <div className='right-arrow' onClick={goToNext}  >
+                    ❱
+                </div>
+            </div>
+            <div className='footer-slider'>
+                <Button variant='outlined' href={slides[currentIndex].projectUrl} target="_blank"> Repositorio </Button>
+                <Button variant='outlined' href={slides[currentIndex].deploy} target="_blank"> Deploy </Button>
+
+            </div>
+            {/* <div className='container-footer' >
               {slides.map((slide, slideIndex) => (
                   <div
                       id={slide.id}
@@ -64,8 +73,8 @@ const Gallery = ({ slides=[
               ))}
           </div> */}
 
-      </div>
-  )
+        </div>
+    )
 }
 
 export default Gallery
