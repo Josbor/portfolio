@@ -9,7 +9,7 @@ const Main = () => {
 
     return (
         <>
-            <section style={{ overflow: 'hidden !important' }} className="nav ">
+            <section id='header' style={{ overflow: 'hidden !important' }} className="nav ">
 
                 <Header />
                 <NavigationBar />
