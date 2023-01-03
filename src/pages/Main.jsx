@@ -6,18 +6,19 @@ import Portfolio from './portfolio/Portfolio'
 import Skills from './skills/Skills'
 
 const Main = () => {
+
     return (
         <>
-            <section style={{ overflow: 'hidden !important' }} className="nav">
+            <section style={{ overflow: 'hidden !important' }} className="nav ">
 
                 <Header />
                 <NavigationBar />
             </section>
             <main className="main">
-                <section className="slider" id="tab-sobre-mi">
+                <section className="slider nav__scrolled" id="tab-sobre-mi">
                     <AboutMe />
                 </section>
-                <section className="slider" id="tab-portafolio">
+                <section className="slider .nav__scrolled" id="tab-portafolio">
                     <Portfolio />
                 </section>
                 <section className="slider" id="tab-habilidades">

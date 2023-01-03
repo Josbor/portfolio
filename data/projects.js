@@ -21,6 +21,28 @@ export const projects=[
         deploy:'https://muebles-shop.netlify.app',
         image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-3.png'
         
+    },
+    {   id:4,
+        name:'cotizador Cripto',
+        description:'este es un proyecto para consultar los datos de las diferentes cripto currencys',
+        projectUrl:'https://github.com/Josbor/cripto-react',
+        deploy:'https://cripto-consulta.netlify.app/',
+        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-1.png'
+    },
+    {   id:5,
+        name:'Consultas veterinario',
+        description:'proyecto donde se agendan citas a los pacientes en una veterinaria',
+        projectUrl:'https://github.com/Josbor/citas_react',
+        deploy:'https://citasveterinariofinal.netlify.app/',
+        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-2.png'
+    },
+    {   id:6,
+        name:'Tienda de Muebles',
+        description:'es un pequeño proyecto de presentacion de una tienda de muebles',
+        projectUrl:'https://github.com/Josbor/tienda-muebles',
+        deploy:'https://muebles-shop.netlify.app',
+        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-3.png'
+        
     }
 ]
 

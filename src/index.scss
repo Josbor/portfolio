@@ -6,6 +6,7 @@
   //VARIABLES
   --background-color:#1e1f26;
   background-color: var(--background-color);
+  scroll-behavior: smooth;
 
 }
 
@@ -250,3 +251,6 @@ a {
   -webkit-animation-delay: 2.1s;
 }
 
+.nav__scrolled{
+  transition: all 1s;
+}

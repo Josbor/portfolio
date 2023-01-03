@@ -24,11 +24,11 @@ const Skills = () => {
 
                     </TabList>
 
-                    <TabPanel value="1">
+                    <TabPanel className='skill-panel' value="1">
 
                         <TechSkills />
                     </TabPanel>
-                    <TabPanel value="2">
+                    <TabPanel className='skill-panel' value="2">
                         <SoftSkills />
                     </TabPanel>
 

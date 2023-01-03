@@ -4,24 +4,7 @@ import './Gallery.scss'
   
 
   
-  const rightArrowStyles = {
-  
-    //transform: "translate(0, -50%)",
-    //right: "32px",
-    fontSize: "45px",
-    color: "#fff",
-  
-    cursor: "pointer",
-  };
-  
-  const leftArrowStyles = {
-  
-    fontSize: "45px",
-    color: "#fff",
-  
-    cursor: "pointer"
-  };
-  
+
 
 
   
@@ -56,16 +39,7 @@ const Gallery = ({ slides=[
                   ❰
               </div>
               <div className='container-image'>
-                  <div className='img-label'>
-                      <div className='label-content'>
-                          <h3>{slides[currentIndex].name}</h3>
-                          <p>{slides[currentIndex].description}</p>
-                      </div>
-                      <div className='label-buttons'>
-                            <button>REPOSITORY</button>
-                            <button>DEPLOY</button>
-                      </div>
-                  </div>  
+                 
                   <img src={slides[currentIndex].image} alt="" >
                     
                   </img>
@@ -77,17 +51,18 @@ const Gallery = ({ slides=[
                   ❱
               </div>
           </div>
-          <div className='container-footer' >
+          {/* <div className='container-footer' >
               {slides.map((slide, slideIndex) => (
                   <div
-                      className='container-img'
+                      id={slide.id}
+                      className={`container-img`}
                       key={slideIndex}
                       onClick={() => goToSlide(slideIndex)}
                   >
-                      <img src={slide.image} alt="" />
+                      <img className={`${slideIndex==currentIndex?'selected':''}`} src={slide.image} alt="" />
                   </div>
               ))}
-          </div>
+          </div> */}
 
       </div>
   )

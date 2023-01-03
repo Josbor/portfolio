@@ -1,0 +1,36 @@
+.portfolio-container{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    gap:100px;
+    h2{
+        font-family: "Josefin Sans", sans-serif;
+        padding-bottom: 0.5rem;
+        letter-spacing: 0.4rem;
+        color:#03DAC6 !important;
+        font-size: x-large !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 5px;
+        &::after{
+            content: '';
+            width: 40%;
+            height: 2px;
+            background-color: #a3ffe2;
+            @media (min-width:480px) {
+                width: 10%;
+                
+            }
+        }
+        @media (min-width:480px) {
+
+            font-size: xx-large !important;
+            margin-bottom: 20px;
+       }
+    }
+}
