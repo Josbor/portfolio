@@ -8,7 +8,7 @@ const Portfolio = () => {
 
   return (
     <div className='portfolio-container'>
-      <h2>PORTAFOLIO</h2>
+      {/* <h2>PORTAFOLIO</h2> */}
     <Gallery slides={projects} />
     </div>
   );

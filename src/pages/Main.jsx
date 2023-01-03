@@ -15,18 +15,15 @@ const Main = () => {
                 <NavigationBar />
             </section>
             <main className="main">
-                <section className="slider nav__scrolled" id="tab-sobre-mi">
+                <section className="slider" id="tab-sobre-mi">
                     <AboutMe />
                 </section>
-                <section className="slider .nav__scrolled" id="tab-portafolio">
+                <section className="slider" id="tab-portafolio">
                     <Portfolio />
                 </section>
                 <section className="slider" id="tab-habilidades">
                     <Skills/>
                 </section>
-                
-
-
             </main>
 
         </>
