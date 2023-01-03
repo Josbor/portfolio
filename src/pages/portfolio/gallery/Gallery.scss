@@ -9,9 +9,15 @@
 .container-gallery {
     height: 100%;
     display: grid;
+    grid-template-rows: 5vh 27vh 15vh;
     align-items: center;
-   
-    
+    @media (min-width:480px) {
+        grid-template-rows: 5vh 40vh 10vh;
+    }
+    .header-slide{
+        color: #fff;
+        text-transform: capitalize;
+    }
     // width: 610px;
     //     height: 380px;
     .container-slide {
@@ -19,8 +25,12 @@
         display: grid;
         grid-template-columns: 30px  var(--img-size) 30px;
         align-items: center;
-        max-width: 800px;
+        width:calc(var(--img-size) + 60px);
         height: var(--img-height);
+        @media (min-width:600px) {
+            grid-template-columns: 100px  var(--img-size) 100px;
+            width:calc(var(--img-size) + 200px);
+        }
         .left-arrow,
         .right-arrow {
             font-size: xx-large;

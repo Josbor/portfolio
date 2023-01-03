@@ -35,9 +35,13 @@ const Gallery = ({ slides = [
 
     return (
         <div className="container-gallery"  >
+           
+           {/* HEADER */}
            <div className='header-slide'>
             <h3>{slides[currentIndex].name}</h3>
            </div>
+
+           {/* SLIDER */}
             <div className='container-slide'>
                 <div className='left-arrow' onClick={goToPrevious} >
                     ❰
@@ -55,9 +59,11 @@ const Gallery = ({ slides = [
                     ❱
                 </div>
             </div>
+
+            {/* FOOTER */}
             <div className='footer-slider'>
-                <Button variant='outlined' href={slides[currentIndex].projectUrl} target="_blank"> Repositorio </Button>
-                <Button variant='outlined' href={slides[currentIndex].deploy} target="_blank"> Deploy </Button>
+                <Button  color='warning' fullWidth variant='outlined' href={slides[currentIndex].projectUrl} target="_blank"> Repositorio </Button>
+                <Button   color='primary' fullWidth variant='outlined' href={slides[currentIndex].deploy} target="_blank"> VER ONLINE </Button>
 
             </div>
             {/* <div className='container-footer' >
