@@ -8,11 +8,11 @@ export const projects=[
         image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-1.png'
     },
     {   id:2,
-        name:'Consultas veterinario',
-        description:'proyecto donde se agendan citas a los pacientes en una veterinaria',
-        projectUrl:'https://github.com/Josbor/citas_react',
-        deploy:'https://citasveterinariofinal.netlify.app/',
-        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-2.png'
+        name:'portafolio personal',
+        description:'proyecto personal desarrollado para mostrar mi perfil, habilidades y trabajos realizados',
+        projectUrl:'https://github.com/Josbor/portfolio',
+        deploy:'https://jose-borrego.netlify.app/',
+        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-2.jpeg'
     },
     {   id:3,
         name:'Tienda de Muebles',
