@@ -1,10 +1,10 @@
 
 export const projects=[
     {   id:1,
-        name:'cotizador Cripto',
-        description:'este es un proyecto para consultar los datos de las diferentes cripto currencys',
-        projectUrl:'https://github.com/Josbor/cripto-react',
-        deploy:'https://cripto-consulta.netlify.app/',
+        name:'PWA simulador de app Bancaria',
+        description:'esta es una aplicacion realizada para probar el login de usuario y consulta de la cuenta bancaria registrada',
+        projectUrl:'https://github.com/Josbor/world-bank',
+        deploy:'https://worl-cash-app.netlify.app',
         image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-1.png'
     },
     {   id:2,
@@ -15,33 +15,33 @@ export const projects=[
         image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-2.jpeg'
     },
     {   id:3,
-        name:'Tienda de Muebles',
-        description:'es un pequeño proyecto de presentacion de una tienda de muebles',
-        projectUrl:'https://github.com/Josbor/tienda-muebles',
-        deploy:'https://muebles-shop.netlify.app',
+        name:'To do List - fullstack',
+        description:'pequeño proyecto realizado para administrar tareas',
+        projectUrl:'https://github.com/Josbor/task-mamanger',
+        deploy:'https://task-mamanger-c89u2b0vf-josbor.vercel.app/',
         image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-3.png'
         
     },
     {   id:4,
-        name:'cotizador Cripto',
-        description:'este es un proyecto para consultar los datos de las diferentes cripto currencys',
-        projectUrl:'https://github.com/Josbor/cripto-react',
-        deploy:'https://cripto-consulta.netlify.app/',
-        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-1.png'
-    },
-    {   id:5,
         name:'Consultas veterinario',
         description:'proyecto donde se agendan citas a los pacientes en una veterinaria',
         projectUrl:'https://github.com/Josbor/citas_react',
         deploy:'https://citasveterinariofinal.netlify.app/',
-        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-2.png'
+        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-4.png'
+    },
+    {   id:5,
+        name:'cotizador Cripto',
+        description:'este es un proyecto para consultar los datos de las diferentes cripto currencys',
+        projectUrl:'https://github.com/Josbor/cripto-react',
+        deploy:'https://cripto-consulta.netlify.app/',
+        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-5.png'
     },
     {   id:6,
         name:'Tienda de Muebles',
         description:'es un pequeño proyecto de presentacion de una tienda de muebles',
         projectUrl:'https://github.com/Josbor/tienda-muebles',
         deploy:'https://muebles-shop.netlify.app',
-        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-3.png'
+        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-6.png'
         
     }
 ]
