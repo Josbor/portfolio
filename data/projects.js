@@ -18,7 +18,7 @@ export const projects=[
         name:'To do List - fullstack',
         description:'pequeño proyecto realizado para administrar tareas',
         projectUrl:'https://github.com/Josbor/task-mamanger',
-        deploy:'https://iridescent-bavarois-fc3786.netlify.app/',
+        deploy:'https://todo-list-manager-app.netlify.app',
         image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-3.png'
         
     },
