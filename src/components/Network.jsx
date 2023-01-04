@@ -8,8 +8,8 @@ const Network = ({ network }) => {
   return (
     <>
       <div className='network-img'>
-        <a href={network.url}>
-          <img src={network.image} alt="" />
+        <a href={network.url} target="_blank">
+         <img src={network.image}   alt={network.name} />
         </a>
       </div>
     </>

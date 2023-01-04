@@ -155,3 +155,11 @@ $rotation:132deg;
         }
     }
 }
+.networks-content{
+    margin: 10px 0 ;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+}

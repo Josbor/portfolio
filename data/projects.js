@@ -222,12 +222,7 @@ export const softSkills=[
             image:'https://www.svgrepo.com/show/134581/whatsapp.svg',
             url:'https://wa.me/593958649632'
         },
-        {
-            id:5,
-            name:'email',
-            image:'https://www.svgrepo.com/show/418504/bulb-idea-knowledge.svg',
-            url:'josbor.dev@gmail.com'
-        },
+     
         
         
      
