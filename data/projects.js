@@ -194,4 +194,42 @@ export const softSkills=[
      
     ]
 
+
+    export const networks=[
+        
+        {
+            id:1,
+            name:'github',
+            image:'https://www.svgrepo.com/show/450156/github.svg',
+            url:'https://github.com/Josbor'
+        }
+        ,
+        {
+            id:2,
+            name:'linkedin',
+            image:'https://www.svgrepo.com/show/452047/linkedin-1.svg',
+            url:'https://www.linkedin.com/in/josbor/'
+        },
+        {
+            id:3,
+            name:'twitter',
+            image:'https://www.svgrepo.com/show/452123/twitter.svg',
+            url:'https://twitter.com/JosborDev'
+        },
+        {
+            id:4,
+            name:'whatsapp',
+            image:'https://www.svgrepo.com/show/134581/whatsapp.svg',
+            url:'https://wa.me/593958649632'
+        },
+        {
+            id:5,
+            name:'email',
+            image:'https://www.svgrepo.com/show/418504/bulb-idea-knowledge.svg',
+            url:'josbor.dev@gmail.com'
+        },
+        
+        
+     
+    ]
     
