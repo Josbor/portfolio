@@ -1,7 +1,7 @@
 import { Button } from '@mui/material'
 import React, { useId } from 'react'
 import image from '../assets/profilePic.jpg'
-import document from '../assets/doc/FronEnd_Developer_Jose_Borrego.pdf'
+import document from '../assets/doc/JOSE_BORREGO_CV.pdf'
 import Network from '../components/Network'
 import { networks } from '../../data/projects'
 
@@ -17,7 +17,7 @@ const AboutMe = () => {
       </div>
       <div className='about-content'>
         <h2>SOBRE MI</h2>
-        <p>Soy Jose Alberto Borrego ,Desarrollador FrontEnd con 2 años de experiencia en Frontend con React Y angular.Dominio en backend con Php , Nodejs y Sql server para base de datos. Enfocado al desarrollo visual y dinámico de soluciones.Poseo habilidades de ilustrador y conocimientos de diseño, añadiendo estas nociones a mi código.
+        <p>Mi nombre es José Alberto Borrego y soy un desarrollador Front-End con dos años de experiencia trabajando con React y Angular. Tengo un dominio en el desarrollo de Backend con PHP, Node.js y SQL Server para bases de datos. Mi enfoque se centra en el desarrollo visual y dinámico de soluciones. Además, poseo habilidades como ilustrador y conocimientos en diseño, los cuales integro en mi trabajo como desarrollador.
         </p>
         <div className='networks-content'>{networks.length>0&&networks.map(network=>
           <Network key={useId()} network={network}/>

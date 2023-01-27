@@ -9,7 +9,7 @@ $rotation:132deg;
     gap: 20px;
     justify-content: end;
     align-items: center;
-    @media (min-width:480px) {
+    @media (min-width:900px) {
 
         grid-template-rows:none;
         grid-template-columns: 1fr 1fr;
