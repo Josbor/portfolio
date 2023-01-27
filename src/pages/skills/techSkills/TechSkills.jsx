@@ -1,5 +1,5 @@
 import React from 'react'
-import { techSkills } from '../../../../data/projects'
+import { techSkills } from '../../../data/projects'
 import Skill from '../skill/Skill'
 import './TechSkills.scss'
 const TechSkills = () => {

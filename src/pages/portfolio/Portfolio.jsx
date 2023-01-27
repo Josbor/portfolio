@@ -1,7 +1,7 @@
 import React from 'react'
 import './Portfolio.scss'
 import Gallery from './gallery/Gallery';
-import { projects } from '../../../data/projects';
+import { projects } from '../../data/projects';
 
 const Portfolio = () => {
 

@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useRef } from 'react'
-
+import { useTranslation } from 'react-i18next'
 
 
 
 const NavigationBar = () => {
   const [classname, setClassName] = useState('')
- 
+  const {t}=useTranslation()
 
 
 
@@ -72,11 +72,11 @@ const NavigationBar = () => {
 
 
   return (
-    <div id='nav'  className={`nav-container ${classname}`}>
-      <a className="nav-tab" href="#header">INICIO</a>
-      <a className="nav-tab" href="#tab-sobre-mi">SOBRE MI</a>
-      <a className="nav-tab" href="#tab-portafolio">PORTAFOLIO</a>
-      <a className="nav-tab" href="#tab-habilidades">HABILIDADES</a>
+    <div id='nav' style={{textTransform:'uppercase'}} className={`nav-container ${classname}`}>
+      <a className="nav-tab" href="#header">{t('header.nav-home')}</a>
+      <a className="nav-tab" href="#tab-sobre-mi">{t('header.nav-about')}</a>
+      <a className="nav-tab" href="#tab-portafolio">{t('header.nav-portfolio')}</a>
+      <a className="nav-tab" href="#tab-habilidades">{t('header.nav-skills')}</a>
 
       <span className="nav-tab-slider"></span>
     </div>

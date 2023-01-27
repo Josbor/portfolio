@@ -8,10 +8,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
 import { Drawer, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Typography } from '@mui/material';
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next'
 
 export default function HeaderBar() {
   const [open, setOpen] = useState(false)
-  const [hMenu, setHMenu] = useState('inicio')
+  const {t}=useTranslation();
+  const [hMenu, setHMenu] = useState(t('header.nav-home'))
   const toggleDrawer = () => {
     setOpen(!open)
     console.log('se acciono')
@@ -41,28 +43,26 @@ export default function HeaderBar() {
 
       if (p > inicio) {
 
-        setHMenu('inicio')
+        setHMenu(t('header.nav-home'))
 
       }
       if (p > (about * 0.9)) {
 
-        setHMenu('sobre mi')
+        setHMenu(t('header.nav-about'))
 
       }
       if (p > (portfolio * 0.9)) {
 
-        setHMenu('portafolio')
+        setHMenu(t('header.nav-portfolio'))
 
       }
       if (p > (skills * 0.9)) {
 
-        setHMenu('habilidades')
+        setHMenu(t('header.nav-skills'))
       }
 
 
 
-      const clase = (p > header) ? 'nav-container--top-second' : '';
-      classname == '' && setClassName(clase)
     }
 
     window.addEventListener('scroll', handleScroll)
@@ -100,7 +100,7 @@ export default function HeaderBar() {
           onClose={toggleDrawer}
           PaperProps={{
             sx: {
-              background: '#261F1E',
+              background: '#1E1F26',
               justifyContent: 'center'
 
             }
@@ -112,15 +112,16 @@ export default function HeaderBar() {
               height: '70%',
               display: 'flex',
               flexDirection: 'column',
+              textTransform:'uppercase'
 
             }}
           >
 
 
-            <a className="nav-tab" href="#header" onClick={toggleDrawer}>INICIO</a>
-            <a className="nav-tab" href="#tab-sobre-mi" onClick={toggleDrawer}>SOBRE MI</a>
-            <a className="nav-tab" href="#tab-portafolio" onClick={toggleDrawer}>PORTAFOLIO</a>
-            <a className="nav-tab" href="#tab-habilidades" onClick={toggleDrawer}>HABILIDADES</a>
+            <a className="nav-tab" href="#header" onClick={toggleDrawer}>{t('header.nav-home')}</a>
+            <a className="nav-tab" href="#tab-sobre-mi" onClick={toggleDrawer}>{t('header.nav-about')}</a>
+            <a className="nav-tab" href="#tab-portafolio" onClick={toggleDrawer}>{t('header.nav-portfolio')}</a>
+            <a className="nav-tab" href="#tab-habilidades" onClick={toggleDrawer}>{t('header.nav-skills')}</a>
 
           </Box>
 

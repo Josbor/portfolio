@@ -1,5 +1,6 @@
 import { Button } from '@mui/material';
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import './Gallery.scss'
 
 
@@ -15,7 +16,7 @@ const Gallery = ({ slides = [
     'https://picsum.photos/300/300/?random&6',
     'https://picsum.photos/300/300/?random&6'
 ] }) => {
-
+    const {t,i18n}=useTranslation()
     const [currentIndex, setCurrentIndex] = useState(0);
     const goToPrevious = () => {
         const isFirstSlide = currentIndex === 0;
@@ -38,7 +39,7 @@ const Gallery = ({ slides = [
            
            {/* HEADER */}
            <div className='header-slide'>
-            <h3>{slides[currentIndex].name}</h3>
+            <h3>{slides[currentIndex].content[i18n.language.substring(0,2)].name}</h3>
            </div>
 
            {/* SLIDER */}
@@ -62,8 +63,8 @@ const Gallery = ({ slides = [
 
             {/* FOOTER */}
             <div className='footer-slider'>
-                <Button  color='warning' fullWidth variant='outlined' href={slides[currentIndex].projectUrl} target="_blank"> Repositorio </Button>
-                <Button   color='primary' fullWidth variant='outlined' href={slides[currentIndex].deploy} target="_blank"> VER ONLINE </Button>
+                <Button  color='warning' fullWidth variant='outlined' href={slides[currentIndex].projectUrl} target="_blank"> {t('portfolio.repository')} </Button>
+                <Button   color='primary' fullWidth variant='outlined' href={slides[currentIndex].deploy} target="_blank"> {t('portfolio.deploy')} </Button>
 
             </div>
             {/* <div className='container-footer' >
