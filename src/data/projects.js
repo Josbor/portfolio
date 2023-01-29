@@ -20,25 +20,25 @@ export const projects = [
         deploy: 'https://cripto-consulta.netlify.app/',
         image: 'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-5.png'
     },
+
     {
         id: 2,
         content: {
             en:
             {
-                name: 'Veterinarian Appointments',
-                description: 'project where appointments are scheduled for patients at a veterinary clinic',
-
+                name: 'expense manager',
+                description: 'Small application created to manage and record expenses based on a budget.',
             },
             es:
             {
-                name: 'Consultas veterinario',
-                description: 'proyecto donde se agendan citas a los pacientes en una veterinaria',
+                name: 'administrador de gastos',
+                description: 'pequeña apliacion creada para administrar y registrar los gastos basado en un presupuesto',
             },
         },
 
-        projectUrl: 'https://github.com/Josbor/citas_react',
-        deploy: 'https://citasveterinariofinal.netlify.app/',
-        image: 'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-4.png'
+        projectUrl: 'https://github.com/Josbor/Control-gastos',
+        deploy: 'https://administracion-gastos.netlify.app/',
+        image: 'https://raw.githubusercontent.com/Josbor/Josbor/main/costsmanager.png'
     },
     {
         id: 3,
@@ -64,6 +64,26 @@ export const projects = [
         content: {
             en:
             {
+                name: 'Veterinarian Appointments',
+                description: 'project where appointments are scheduled for patients at a veterinary clinic',
+
+            },
+            es:
+            {
+                name: 'Consultas veterinario',
+                description: 'proyecto donde se agendan citas a los pacientes en una veterinaria',
+            },
+        },
+
+        projectUrl: 'https://github.com/Josbor/citas_react',
+        deploy: 'https://citasveterinariofinal.netlify.app/',
+        image: 'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-4.png'
+    },
+    {
+        id: 5,
+        content: {
+            en:
+            {
                 name: 'To-Do List - Full Stack',
                 description: 'small project for task management'
 
@@ -81,21 +101,45 @@ export const projects = [
     },
 
 
-    // {   id:5,
-    //     name:'Tienda de Muebles',
-    //     description:'es un pequeño proyecto de presentacion de una tienda de muebles',
-    //     projectUrl:'https://github.com/Josbor/tienda-muebles',
-    //     deploy:'https://muebles-shop.netlify.app',
-    //     image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-6.png'
+    {   id:6,
+        content: {
+            en:
+            {
+                Name: 'Furniture Store',
+                Description: 'It is a small presentation project for a furniture store.',
 
-    // },  
+            },
+            es:
+            {
+                name:'Tienda de Muebles',
+                description:'es un pequeño proyecto de presentacion de una tienda de muebles',
+            },
+        },
+       
+        projectUrl:'https://github.com/Josbor/tienda-muebles',
+        deploy:'https://muebles-shop.netlify.app',
+        image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-6.png'
+
+    },  
     // {   id:6,
-    //     name:'PWA simulador de app Bancaria',
-    //     description:'esta es una aplicacion realizada para probar el login de usuario y consulta de la cuenta bancaria registrada',
+    //     content: {
+    //         en:
+    //         {
+    //             name:'PWA simulador de app Bancaria',
+    //             description:'esta es una aplicacion realizada para probar el login de usuario y consulta de la cuenta bancaria registrada',
+
+    //         },
+    //         es:
+    //         {
+    //             name:'PWA simulador de app Bancaria',
+    //             description:'esta es una aplicacion realizada para probar el login de usuario y consulta de la cuenta bancaria registrada',
+    //         },
+    //     },
+      
     //     projectUrl:'https://github.com/Josbor/world-bank',
     //     deploy:'https://worl-cash-app.netlify.app',
     //     image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-1.png'
-    // },
+    // }
 ]
 
 
