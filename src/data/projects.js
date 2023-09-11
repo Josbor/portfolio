@@ -20,9 +20,28 @@ export const projects = [
         deploy: 'https://cripto-consulta.netlify.app/',
         image: 'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-5.png'
     },
-
     {
         id: 2,
+        content: {
+            en:
+            {
+                name: 'To-Do List ',
+                description: 'small project for task management'
+
+            },
+            es:
+            {
+                name: 'To do List ',
+                description: 'pequeño proyecto realizado para administrar tareas',
+            },
+        },
+        projectUrl: 'https://github.com/Josbor/todolist-crud',
+        deploy: 'https://todolist-crud.vercel.app/',
+        image: 'https://raw.githubusercontent.com/Josbor/Josbor/main/todo-list-crud.jpg'
+
+    },
+    {
+        id: 3,
         content: {
             en:
             {
@@ -40,25 +59,7 @@ export const projects = [
         deploy: 'https://administracion-gastos.netlify.app/',
         image: 'https://raw.githubusercontent.com/Josbor/Josbor/main/costsmanager.png'
     },
-    {
-        id: 3,
-        content: {
-            en:
-            {
-                name: 'Personal Portfolio',
-                description: 'personal project developed to showcase my profile, skills and completed works',
-            },
-            es:
-            {
-                name: 'portafolio personal',
-                description: 'proyecto personal desarrollado para mostrar mi perfil, habilidades y trabajos realizados',
-            },
-        },
-
-        projectUrl: 'https://github.com/Josbor/portfolio',
-        deploy: 'https://jose-borrego.netlify.app/',
-        image: 'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-2.jpeg'
-    },
+   
     {
         id: 4,
         content: {
@@ -79,33 +80,32 @@ export const projects = [
         deploy: 'https://citasveterinariofinal.netlify.app/',
         image: 'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-4.png'
     },
+ 
     {
         id: 5,
         content: {
             en:
             {
-                name: 'To-Do List - Full Stack',
-                description: 'small project for task management'
-
+                name: 'Personal Portfolio',
+                description: 'personal project developed to showcase my profile, skills and completed works',
             },
             es:
             {
-                name: 'To do List - fullstack',
-                description: 'pequeño proyecto realizado para administrar tareas',
+                name: 'portafolio personal',
+                description: 'proyecto personal desarrollado para mostrar mi perfil, habilidades y trabajos realizados',
             },
         },
-        projectUrl: 'https://github.com/Josbor/task-mamanger',
-        deploy: 'https://todo-list-manager-app.netlify.app',
-        image: 'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-3.png'
 
+        projectUrl: 'https://github.com/Josbor/portfolio',
+        deploy: 'https://jose-borrego.netlify.app/',
+        image: 'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-2.jpeg'
     },
-
 
     {   id:6,
         content: {
             en:
             {
-                Name: 'Furniture Store',
+                name: 'Furniture Store',
                 Description: 'It is a small presentation project for a furniture store.',
 
             },
@@ -120,26 +120,8 @@ export const projects = [
         deploy:'https://muebles-shop.netlify.app',
         image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-6.png'
 
-    },  
-    // {   id:6,
-    //     content: {
-    //         en:
-    //         {
-    //             name:'PWA simulador de app Bancaria',
-    //             description:'esta es una aplicacion realizada para probar el login de usuario y consulta de la cuenta bancaria registrada',
-
-    //         },
-    //         es:
-    //         {
-    //             name:'PWA simulador de app Bancaria',
-    //             description:'esta es una aplicacion realizada para probar el login de usuario y consulta de la cuenta bancaria registrada',
-    //         },
-    //     },
-      
-    //     projectUrl:'https://github.com/Josbor/world-bank',
-    //     deploy:'https://worl-cash-app.netlify.app',
-    //     image:'https://raw.githubusercontent.com/Josbor/portfolio/main/src/assets/img/project-1.png'
-    // }
+    }  
+ 
 ]
 
 
@@ -272,7 +254,7 @@ export const softSkills = [
         id: 2,
         content: {
             en: {
-                name: 'Comunication'
+                name: 'Teamwork'
             },
             es: {
                 name: 'Trabajo en equipo',
@@ -285,7 +267,7 @@ export const softSkills = [
         id: 3,
         content: {
             en: {
-                name: 'Comunication'
+                name: 'Creativity'
             },
             es: {
                 name: 'Creatividad',
@@ -310,7 +292,7 @@ export const softSkills = [
         id: 5,
         content: {
             en: {
-                name: 'Comunication'
+                name: 'Autodidact'
             },
             es: {
                 name: 'Autodidacta',
@@ -322,7 +304,7 @@ export const softSkills = [
         id: 6,
         content: {
             en: {
-                name: 'Comunication'
+                name: 'Adaptability'
             },
             es: {
                 name: 'Adaptabilidad',
