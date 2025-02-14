@@ -342,7 +342,7 @@ export const networks = [
         id: 4,
         name: 'whatsapp',
         image: 'https://www.svgrepo.com/show/134581/whatsapp.svg',
-        url: 'https://wa.me/593958649632'
+        url: 'https://wa.me/584124079948'
     },
     {
         id: 4,
