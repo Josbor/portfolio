@@ -21,7 +21,7 @@ i18next
                     },
                     "about":{
                         "tittle":"about me",
-                        "content":"My name is José Alberto Borrego and I am a Front-End developer with two years of experience working with React and Angular. I have a mastery in Backend development with PHP, Node.js, and SQL Server for databases. My focus is on the visual and dynamic development of solutions. Additionally, I possess skills as an illustrator and knowledge in design, which I integrate into my work as a developer.",
+                        "content":"My name is José Alberto Borrego and I am a Front-End Developer with expertise in React and Angular, specializing in dynamic interfaces, web optimization, and AI integration. Proven experience in ERP modules, legacy system modernization, and API-driven solutions. Core stack: React | Next.js | Node.js | Firebase | Tailwind CSS. Full-stack knowledge in PHP and SQL for scalable applications. Focus on clean code, performance, and intuitive UI/UX design.",
                         "cvDownload":"download cv"
 
                     },
@@ -46,7 +46,7 @@ i18next
                     },
                     "about":{
                         "tittle":"sobre mi",
-                        "content":"Mi nombre es José Alberto Borrego y soy un desarrollador Front-End con dos años de experiencia trabajando con React y Angular. Tengo un dominio en el desarrollo de Backend con PHP, Node.js y SQL Server para bases de datos. Mi enfoque se centra en el desarrollo visual y dinámico de soluciones. Además, poseo habilidades como ilustrador y conocimientos en diseño, los cuales integro en mi trabajo como desarrollador.",
+                        "content":"Mi nombre es José Alberto Borrego y soy un Desarrollador Front-End con experiencia en React y Angular, especializado en creación de interfaces dinámicas y optimización web. He desarrollado módulos ERP, integrado APIs con IA (ChatGPT) y modernizado sistemas legacy. Stack principal: React | Angular | Node.js | Firebase | Tailwind CSS. Conocimientos full-stack en PHP y SQL para soluciones escalables. Enfoque en código limpio, performance y diseño UI/UX intuitivo, con adaptabilidad a diferentes entornos tecnológicos.",
                         "cvDownload":"descargar cv"
                     },
                     "portfolio":{
